@@ -2,7 +2,9 @@
 // import dashboard from "/icons/dashboard-icon.png";
 // import portfolio from "/icons/portfolio-icon.png";
 // import inputs from "/icons/inputs-icon.png";
-// import profile from "/icons/profile-icon.png";
+import profile from "/icons/profile-icon.png";
+
+import input from "./../images/input.jpeg"
 
 export const sideBarData = [
     {
@@ -18,7 +20,7 @@ export const sideBarData = [
     {
         text: "Inputs",
         link: "/inputs",
-        icon: "/icons/inputs-icon.png",
+        icon: input,
     },
     {
         text: "Profile",
