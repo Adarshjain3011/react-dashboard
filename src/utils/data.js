@@ -4,7 +4,7 @@
 // import inputs from "/icons/inputs-icon.png";
 import profile from "/icons/profile-icon.png";
 
-import input from "./../images/input.jpeg"
+import input from "/images/input.jpeg"
 
 export const sideBarData = [
     {
