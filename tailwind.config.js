@@ -1,3 +1,6 @@
+// tailwind.config.js
+import tailwindScrollbarHide from 'tailwind-scrollbar-hide';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,7 +11,8 @@ export default {
     extend: {},
   },
   plugins: [
-    // require('tailwind-scrollbar-hide')
+    tailwindScrollbarHide,
   ],
 }
+
 
