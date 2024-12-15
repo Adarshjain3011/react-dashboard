@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "frontend": "cd frontend &&  npm run dev",
     "backend": "cd backend && npm start",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\""
