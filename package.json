@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm run build",
-    "frontend": "cd frontend &&  npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "frontend": "cd frontend && npm run dev",
     "backend": "cd backend && npm start",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "postinstall": "cd frontend && npm install"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "concurrently": "^9.1.0"
   },
   "devDependencies": {
-    "vite": "^6.0.3"
+    "vite": "^6.0.3",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
+
+
