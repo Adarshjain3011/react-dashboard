@@ -26,7 +26,7 @@ const PortfolioPage = () => {
             setError(null);
             try {
                 const response = await axios.get(
-                    `http://localhost:4000/api/getSpecificStatusTypeProject/${activeTab}`
+                    `https://react-dashboard-punq.vercel.app/api/getSpecificStatusTypeProject/${activeTab}`
                 );
 
                 if (response.data.length === 0) {
